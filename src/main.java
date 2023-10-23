@@ -47,7 +47,13 @@ public class main{
         //ver si el numero es primo
 
         //ver cuantas mayusculas tiene la cadena
-
+        int aux = 0;
+        for (int i = 1; i <= cadena.length(); i++){
+            if (cadena.isUpperCase(cadena.chartAt(i))){
+                aux++;
+            }
+        }
+        System.out.prinln("La cadena tiene " + aux + " mayúsculas.");
         //si no es primo, factorizalo
 
         //mostrar el tamaño de la cadena
