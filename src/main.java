@@ -1,3 +1,4 @@
+
 //Ver el string es palindromo
 //ver si el numero es primo
 //ver cuantas mayusculas tiene la cadena
@@ -18,7 +19,30 @@ public class main{
 
         System.out.println("Introduce un número: ");
         numero = sc.nextInt();
+
+        main
         //Ver el string es palindromo
+
+        cadena = cadena.replaceAll("\\s", "").toLowerCase();
+
+        int izquierda = 0;
+        int derecha = cadena.length() - 1;
+        boolean esPalindromo = true;
+
+        while (izquierda < derecha) {
+            if (cadena.charAt(izquierda) != cadena.charAt(derecha)) {
+                esPalindromo = false;
+                break;
+            }
+            izquierda++;
+            derecha--;
+        }
+
+        if (esPalindromo) {
+            System.out.println(cadena + " es un palíndromo.");
+        } else {
+            System.out.println(cadena + " no es un palíndromo.");
+        }
 
         //ver si el numero es primo
 
