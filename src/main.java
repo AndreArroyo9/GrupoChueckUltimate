@@ -14,7 +14,7 @@ public class main{
         String cadena = "a";
         boolean primo = false;
         System.out.println("Introduce una palabra: ");
-        cadena = sc.nextLine;
+        cadena = sc.nextLine();
         //Ver el string es palindromo
 
         //ver si el numero es primo
