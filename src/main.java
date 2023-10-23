@@ -20,7 +20,6 @@ public class main{
         System.out.println("Introduce un número: ");
         numero = sc.nextInt();
 
-        main
         //Ver el string es palindromo
 
         cadena = cadena.replaceAll("\\s", "").toLowerCase();
@@ -46,6 +45,16 @@ public class main{
 
         //ver si el numero es primo
 
+        if (numero > 1) {
+            for (int i = 2; i <= numero / 2; i++) {
+                if (numero % i == 0) {
+                    primo = false;
+                }else {
+                    primo = true;
+                }
+            }
+        }
+
         //ver cuantas mayusculas tiene la cadena
         int aux = 0;
         for (int i = 1; i <= cadena.length(); i++){
@@ -55,6 +64,20 @@ public class main{
         }
         System.out.prinln("La cadena tiene " + aux + " mayúsculas.");
         //si no es primo, factorizalo
+
+        if (primo) {
+            System.out.println(numero + " es un número primo.");
+        } else {
+            System.out.println(numero + " no es un número primo.");
+            System.out.print("Factores de " + numero + ": ");
+            for (int i = 2; i <= numero; i++) {
+                while (numero % i == 0) {
+                    System.out.print(i + " ");
+                    numero /= i;
+                }
+            }
+            System.out.println();
+        }
 
         //mostrar el tamaño de la cadena
 
