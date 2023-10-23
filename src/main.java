@@ -20,6 +20,7 @@ public class main{
         System.out.println("Introduce un número: ");
         numero = sc.nextInt();
 
+        main
         //Ver el string es palindromo
 
         cadena = cadena.replaceAll("\\s", "").toLowerCase();
