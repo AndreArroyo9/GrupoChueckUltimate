@@ -52,5 +52,13 @@ public class main{
 
         //mostrar el tamaño de la cadena
 
+
+
+        int longitud = cadena.length();
+
+        System.out.println("La longitud de la cadena es: " + longitud);
+
+        sc.close();
+
     }
 }
