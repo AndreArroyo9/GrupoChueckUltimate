@@ -10,11 +10,14 @@ public class main{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
 
-        int numero = 0;
-        String cadena = "a";
+        int numero;
+        String cadena = "";
         boolean primo = false;
         System.out.println("Introduce una palabra: ");
         cadena = sc.nextLine();
+
+        System.out.println("Introduce un número: ");
+        numero = sc.nextInt();
         //Ver el string es palindromo
 
         //ver si el numero es primo
