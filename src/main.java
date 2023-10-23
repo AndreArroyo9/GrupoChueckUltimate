@@ -3,16 +3,19 @@
 //ver cuantas mayusculas tiene la cadena
 //si no es primo, factorizalo
 //mostrar el tamaño de la cadena
-public static void main(String[]args){
-    Scanner sc = new Scanner(System.in);
-    //Ver el string es palindromo
+public class main{
 
-    //ver si el numero es primo
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        //Ver el string es palindromo
 
-    //ver cuantas mayusculas tiene la cadena
+        //ver si el numero es primo
 
-    //si no es primo, factorizalo
+        //ver cuantas mayusculas tiene la cadena
 
-    //mostrar el tamaño de la cadena
+        //si no es primo, factorizalo
 
-        }
+        //mostrar el tamaño de la cadena
+
+    }
+}
