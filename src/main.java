@@ -3,6 +3,8 @@
 //ver cuantas mayusculas tiene la cadena
 //si no es primo, factorizalo
 //mostrar el tamaño de la cadena
+import java.util.Scanner;
+
 public class main{
 
     public static void main(String[]args){
